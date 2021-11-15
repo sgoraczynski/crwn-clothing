@@ -32,8 +32,6 @@ class App extends React.Component {
                 ...snapShot.data()          // but displayName and email are in data()
               }
             });
-
-            console.log(this.state);
         });
       }
       
